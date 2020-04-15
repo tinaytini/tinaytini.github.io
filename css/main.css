@@ -240,4 +240,5 @@ body, html {
   background: url(/img/background/pattern.jpg) 0 0 repeat;
   width: 200px;
   height: 200px;
+  padding: 20px 0;
 }
