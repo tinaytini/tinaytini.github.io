@@ -1,7 +1,7 @@
 @import '/css/fonts.css';
 
 body, html {
-  height: 50%;
+  height: 100%;
 }
 .body {
   font-family: 'Roboto', Arial, sans-serif;     
