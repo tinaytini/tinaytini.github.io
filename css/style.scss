@@ -40,6 +40,7 @@ input:focus, textarea:focus, select:focus{
 
 .section_one {
   background-image: $lightdarkred;
+  padding-bottom: 100px;
 }
 
 
@@ -161,6 +162,42 @@ input:focus, textarea:focus, select:focus{
 
 }
 
+.slick-dots {
+  width: 200px;
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+	
+	list-style-type: none;
+	
+		li {
+			margin: 0 0.25rem;
+		}
+	
+		button {
+			display: block;
+			width: 0.8rem;
+			height: 0.8rem;
+			padding: 0;
+			
+			border: none;
+			border-radius: 100%;
+			background-color: #fff;
+			
+			text-indent: -9999px;
+		}
+	
+		li.slick-active button {
+			background-color: $yellow;
+		}
+	
+}
+
+
+
+
 .icons_link {
   display: block;
   background-position: center;
@@ -175,6 +212,12 @@ input:focus, textarea:focus, select:focus{
   width: 1100px;
   height: 550px;
 }
+
+.slider {
+  padding: 0;
+  list-style-type: none;
+}
+
 .slider_item {
   list-style: none;
   position: absolute;
