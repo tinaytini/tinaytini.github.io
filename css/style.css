@@ -477,6 +477,7 @@ input:focus, textarea:focus, select:focus {
 .section_four {
   background-image: radial-gradient(2500px at 50% 660px, #fff, #cac9ca);
   padding: 40px 0;
+  position: relative;
 }
 
 .our_team, .our_team_list {
@@ -496,45 +497,58 @@ input:focus, textarea:focus, select:focus {
   padding-left: 70px;
 }
 
-.our_team_tabs {
-  width: 32%;
-  padding: 30px;
-}
-.our_team_tabs:first-child {
+.our_team_tabs_active {
   background: #893213;
   border-radius: 2em;
 }
-
-.tabs_link {
-  border: 0;
-  background: #893213;
-  text-decoration: none;
-}
-
-.tabs_name_one, .tabs_name {
+.our_team_tabs_active .tabs_name {
   color: #fca211;
-  font-family: "malina", sans-serif;
-  font-size: 2em;
 }
-
-.tabs_name {
-  color: #2b2f5f;
-}
-
-.tabs_ocupation, .tabs_ocupation_one {
-  font-family: "roboto", sans-serif;
-  color: #8d8d8d;
-}
-.tabs_ocupation_one {
+.our_team_tabs_active .tabs_ocupation {
   color: #fff;
 }
 
-.team_slide {
+.our_team_tabs {
+  width: 33%;
+  padding: 30px;
+  cursor: pointer;
+}
+.our_team_tabs:hover {
+  background: #893213;
+  border-radius: 2em;
+}
+.our_team_tabs:hover .tabs_name {
+  color: #fca211;
+}
+.our_team_tabs:hover .tabs_ocupation {
+  color: #fff;
+}
+
+.tabs_name {
+  font-family: "malina", sans-serif;
+  font-size: 2em;
+  color: #2b2f5f;
+}
+
+.tabs_ocupation {
+  font-family: "roboto", sans-serif;
+  color: #8d8d8d;
+}
+
+.team_content {
   position: relative;
+}
+
+.team_slide {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  display: none;
+  transition: 0.7s;
+}
+.team_slide_active {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 35px;
 }
 .team_slide_left, .team_slide_right {
   width: 20em;
@@ -556,13 +570,15 @@ input:focus, textarea:focus, select:focus {
   top: 0;
   left: 50%;
   transform: translateX(-60%);
+  display: block;
 }
 
 .order_now {
   display: flex;
   align-items: center;
-  position: relative;
-  margin-top: 177px;
+  position: absolute;
+  top: 50%;
+  display: block;
 }
 .order_now_form {
   width: 70%;
