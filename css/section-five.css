@@ -1,0 +1,135 @@
+.footer_icons, .footer_wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section_five {
+  background: url("/img/background/faq.png") repeat;
+  padding: 80px 0;
+}
+
+.faq_list {
+  list-style: decimal;
+  color: #fff;
+}
+.faq_list_item {
+  line-height: 4em;
+}
+.faq_list_item .faq_link {
+  border-bottom: 2px dashed #fff;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}
+
+.faq_title {
+  font-family: "roboto", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  border-bottom: 2px dashed #fff;
+  line-height: 4em;
+}
+.faq_title:hover, .faq_title:focus {
+  color: #fca211;
+  text-decoration: none;
+  border-bottom: 2px dashed #fca211;
+}
+
+.faq_body {
+  font-family: "roboto", sans-serif;
+  color: #fff;
+  font-size: 15px;
+  padding: 0 30px 0 80px;
+}
+
+.footer_wrap {
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+}
+
+.footer_icons {
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+.footer_icons_item {
+  padding: 0 15px 0 0;
+}
+
+.icon_facebook {
+  background: url("/img/icon/socials/facebook.png");
+  width: 22px;
+  height: 22px;
+}
+
+.icon_facebook:hover {
+  background: url("/img/icon/socials/facebook-hover.png");
+  width: 22px;
+  height: 22px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.icon_instagram {
+  background: url("/img/icon/socials/instagram.png");
+  width: 22px;
+  height: 22px;
+}
+
+.icon_instagram:hover {
+  background: url("/img/icon/socials/instagram-hover.png");
+  width: 22px;
+  height: 22px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.icon_ok {
+  background: url("/img/icon/socials/ok.png");
+  width: 22px;
+  height: 22px;
+}
+
+.icon_ok:hover {
+  background: url("/img/icon/socials/ok-hover.png");
+  width: 22px;
+  height: 22px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.icon_twitter {
+  background: url("/img/icon/socials/twitter.png");
+  width: 22px;
+  height: 22px;
+}
+
+.icon_twitter:hover {
+  background: url("/img/icon/socials/twitter-hover.png");
+  width: 22px;
+  height: 22px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.icon_vkontakte {
+  background: url("/img/icon/socials/vkontakte.png");
+  width: 22px;
+  height: 22px;
+}
+
+.icon_vkontakte:hover {
+  background: url("/img/icon/socials/vkontakte-hover.png");
+  width: 22px;
+  height: 22px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}

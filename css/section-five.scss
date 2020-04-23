@@ -1,0 +1,85 @@
+@import 'variables.scss';
+
+//////section five///////
+.section_five {
+    background: url('/img/background/faq.png') repeat;
+    padding: 80px 0; 
+  }
+  .faq_list {
+    list-style: decimal;
+    color: #fff;
+  
+      &_item {
+      line-height: 4em;
+      
+      
+      .faq_link {
+      border-bottom: 2px dashed #fff;
+      padding-bottom: 5px;
+      text-decoration: none;
+      font-size: 22px;
+      color: #fff;
+      }
+    }
+  }
+  
+  /////section five///////
+  .faq_title {
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    border-bottom: 2px dashed #fff;
+    line-height: 4em;
+  
+    &:hover, &:focus {
+      color: $yellow;
+      text-decoration: none;
+      border-bottom: 2px dashed $yellow;
+    }
+  }
+  .faq_body {
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 30px 0 80px;
+  }
+  ///////////////////////////////////
+  
+  //////////////Footer/////////////
+  .footer_wrap {
+    @extend %displayflex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+  }
+  .footer_icons {
+    @extend %displayflex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    
+    &_item {
+      padding: 0 15px 0 0;
+      
+    }
+  }
+  
+  
+  
+  $socials: facebook, instagram, ok, twitter, vkontakte;
+  
+  @each $social in $socials {
+    .icon_#{$social} {
+      background: url('/img/icon/socials/#{$social}.png');
+      width: 22px;
+      height: 22px;
+    }
+    .icon_#{$social}:hover {
+      background: url('/img/icon/socials/#{$social}-hover.png');
+      width: 22px;
+      height: 22px;
+      transition: .3s;
+      -webkit-transition: .3s;
+      -moz-transition: .3s;
+    }
+  }
