@@ -1,0 +1,102 @@
+.section_three {
+  background: url("/img/background/pattern.jpg") repeat;
+  padding: 80px 0;
+}
+
+.we_deliver {
+  font-family: "malina", sans-serif;
+  font-size: 3.5em;
+  color: #393939;
+  text-align: center;
+  margin: 0;
+}
+.we_deliver_text {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  width: 70%;
+  color: #913a2a;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+.form_link {
+  text-decoration: none;
+}
+.form_link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cake_brownies {
+  background: url("/img/content/sweets/brownies.png");
+  width: 85%;
+  height: 250px;
+}
+
+.cake_cakes {
+  background: url("/img/content/sweets/cakes.png");
+  width: 85%;
+  height: 250px;
+}
+
+.cake_candies {
+  background: url("/img/content/sweets/candies.png");
+  width: 85%;
+  height: 250px;
+}
+
+.cake_chocolate {
+  background: url("/img/content/sweets/chocolate.png");
+  width: 85%;
+  height: 250px;
+}
+
+.cake_cookies {
+  background: url("/img/content/sweets/cookies.png");
+  width: 85%;
+  height: 250px;
+}
+
+.cake_donuts {
+  background: url("/img/content/sweets/donuts.png");
+  width: 85%;
+  height: 250px;
+}
+
+.cake_rolls {
+  background: url("/img/content/sweets/rolls.png");
+  width: 85%;
+  height: 250px;
+}
+
+.cake_zefir {
+  background: url("/img/content/sweets/zefir.png");
+  width: 85%;
+  height: 250px;
+}
+
+.menu_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu_list .menu_item {
+  width: 25%;
+  text-align: center;
+}
+
+.cake_name {
+  font-family: "malina", sans-serif;
+  font-size: 2em;
+  margin: 10px 25px 20px 0;
+  color: #393939;
+}
+
+.cake_desc {
+  font-family: "roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  width: 80%;
+  color: #ab594a;
+  line-height: 1.5em;
+}

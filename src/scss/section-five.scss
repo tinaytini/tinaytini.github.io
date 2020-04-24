@@ -1,0 +1,51 @@
+@import 'variables.scss';
+@import 'fonts.css';
+
+//////section five///////
+.section_five {
+    background: url('/img/background/faq.png') repeat;
+    padding: 80px 0; 
+    
+    color: #fff;
+  }
+  .faq_list {
+    list-style: decimal;
+    color: #fff;
+  
+      &_item {
+      line-height: 4em;
+      
+      
+      .faq_link {
+      border-bottom: 2px dashed #fff;
+      padding-bottom: 5px;
+      text-decoration: none;
+      font-size: 22px;
+      color: #fff;
+      }
+    }
+  }
+  
+  
+  .faq_title {
+    
+    font-size: 22px;
+    font-weight: 400;
+    border-bottom: 2px dashed #fff;
+    line-height: 4em;
+  
+    &:hover, &:focus {
+      color: $yellow;
+      text-decoration: none;
+      border-bottom: 2px dashed $yellow;
+    }
+  }
+  .faq_body {
+    
+    font-size: 15px;
+    padding: 0 30px 0 80px;
+  }
+  ///////////////////////////////////
+  
+  
+  

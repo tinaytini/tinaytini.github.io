@@ -1,0 +1,40 @@
+.section_five {
+  background: url("/img/background/faq.png") repeat;
+  padding: 80px 0;
+}
+
+.faq_list {
+  list-style: decimal;
+  color: #fff;
+}
+.faq_list_item {
+  line-height: 4em;
+}
+.faq_list_item .faq_link {
+  border-bottom: 2px dashed #fff;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}
+
+.faq_title {
+  font-family: "roboto", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  border-bottom: 2px dashed #fff;
+  line-height: 4em;
+}
+.faq_title:hover, .faq_title:focus {
+  color: #fca211;
+  text-decoration: none;
+  border-bottom: 2px dashed #fca211;
+}
+
+.faq_body {
+  font-family: "roboto", sans-serif;
+  color: #fff;
+  font-size: 15px;
+  padding: 0 30px 0 80px;
+}

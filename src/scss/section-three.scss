@@ -1,0 +1,64 @@
+@import 'variables.scss';
+
+.section_three {
+    background: url('/img/background/pattern.jpg') repeat;
+    padding: 80px 0;  
+  }
+  .we_deliver {
+    font-family: 'malina', sans-serif;
+    font-size: 3.5em;
+    color: #393939;
+    text-align: center;
+    margin: 0;
+  
+    &_text {
+      font-size: 14px;
+      width: 70%;
+      color: #913a2a;
+      text-align: center;
+      margin: 0 auto;
+      line-height: 1.5em;
+    }
+  }
+  
+  .form_link {
+    text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+  }
+  
+  
+  $sweets: brownies, cakes, candies, chocolate, cookies, donuts, rolls, zefir;
+  @each $sweet in $sweets {
+    .cake_#{$sweet} {
+      background: url('/img/content/sweets/#{$sweet}.png');
+      width: 85%;
+      height: 250px;
+    }
+   }
+   .menu_list {
+    display: flex;
+    flex-wrap: wrap;
+  
+    .menu_item {
+      width: 25%;
+      text-align: center;
+    }
+  }
+  .cake_name {
+    font-family: 'malina', sans-serif;
+    font-size: 2em;
+    margin: 10px 25px 20px 0;
+    color: #393939;
+  }
+  .cake_desc {
+    font-family: 'roboto',sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    width: 80%;
+    color: #ab594a;
+    line-height: 1.5em;
+  }
