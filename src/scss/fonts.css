@@ -1,18 +1,19 @@
 @font-face{font-family:'malina';
-    src:url("/scss/fonts/ALS Malina Regular.svg") 
-    format("svg"),url("/scss/fonts/ALS Malina Regular.woff") 
-    format("woff"),url("/scss/fonts/ALS Malina Regular.woff2") 
-    format("woff2"),url("/scss/fonts/ALS Malina Regular.ttf") 
-    format("truetype");
+    src: url("./fonts/ALS Malina Regular.svg") format("svg"),
+         url("/scss/fonts/ALS Malina Regular.woff") format("woff"),
+         url("/scss/fonts/ALS Malina Regular.woff2") format("woff2"),
+         url("./fonts/Malina.ttf") format("truetype");
     
     font-weight:normal;
     font-style:normal;
     font-display:optional
 }
 @font-face{font-family:'roboto';
-    src:url("/scss/fonts/Roboto-Light.ttf") 
-    format("tryetype");
+    src:url("/scss/fonts/Roboto-Light.ttf") format("tryetype");
     
     font-weight:lighter;
     font-style:normal;
     font-display:optional}
+
+
+   
