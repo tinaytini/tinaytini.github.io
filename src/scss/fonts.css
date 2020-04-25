@@ -1,8 +1,8 @@
 @font-face{font-family:'malina';
-    src: url("./fonts/ALS Malina Regular.svg") format("svg"),
-         url("/scss/fonts/ALS Malina Regular.woff") format("woff"),
-         url("/scss/fonts/ALS Malina Regular.woff2") format("woff2"),
-         url("./fonts/Malina.ttf") format("truetype");
+    src: url("./fonts/ALS\ Malina\ Regular.svg") format("svg"),
+        url("./fonts/ALS\ Malina\ Regular.woff") format("woff"),
+        url("./fonts/ALS\ Malina\ Regular.woff2") format("woff2"),
+        url("./fonts/Malina.ttf") format("truetype");
     
     font-weight:normal;
     font-style:normal;
